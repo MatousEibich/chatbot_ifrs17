@@ -1,0 +1,16 @@
+# .gitignore
+
+# Ignore the .idea directory
+.idea/
+
+# Ignore all __pycache__ directories
+**/__pycache__/
+
+# Ignore all .pyc, .pyo, .pyd files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore other files that shouldn't be committed
+*.log
+*.sqlite
